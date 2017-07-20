@@ -1,0 +1,27 @@
+html
+{
+
+   
+}
+
+
+body{
+  margin:0;
+}
+
+.container {
+    margin:auto;
+    max-width:400px;
+}
+
+.bloco{
+   float:left;
+   border:1px solid #0094ff;
+
+   width:60%;
+   height:auto;
+   display:grid;
+   grid-row-align:center;
+   
+}
+

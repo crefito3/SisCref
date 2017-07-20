@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0px;
+	padding:0p;x	
+	}
+
+.topo{
+	width:1000px;
+	border:thin solid #000;
+	height:150px;
+	margin:auto;	
+	background-color:#f93;
+	}
+.menu{
+	width:290px;
+	height:700px;
+	float:left;
+	position:relative;
+	top:0px;
+	background-color:#F1F5F4;
+	margin-left:15px;
+	}
+.conteudo2 {
+width: 658px;
+height: 100%;
+border: 8px;
+float: left;
+position: relative;
+background-color: #666;
+margin-right:30px;
+}
+#areaTotal {margin:0 auto; width:1000px;border: 1px solid #136aaa;margin-bottom: 10px; height:100%}
+#areaTotal div {display:inline-block}
+ #menu {
+width: 240px;
+float: left;
+position: relative;
+top: 0px;
+background-color: white;
+margin-left: 15px;
+border:1px solid #136aaa;	
+}
+.nome {
+width: 240px;
+background-color: #D1DDE9;
+color: #2D2E52;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+padding-top: 7px;
+font-size: 18px;
+border:1px solid #136aaa;
+margin-left: -1px;
+margin-bottom:7px !important; 
+margin-top: -1px;
+}
+.home{font-family: Arial, Helvetica, sans-serif;
+color: #2D2E52;
+width: 242px;
+margin-left: -1px;
+font-size: 16px;
+border:1px solid #136aaa; 
+padding: 5px;
+margin-bottom: 2px;
+text-align: center;
+cursor:pointer;
+}
+ #menu {
+	 font-family: Arial, Helvetica, sans-serif;
+width: 217px;
+float:left;
+position: relative;
+top: 0px;
+background-color: white;
+margin-left: -1px;
+text-align:center;
+border:1px solid #136aaa; }
+
+.nome {
+width: 217px;
+background-color: #D1DDE9;
+font-weight: bold;
+color: #133E97;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+padding-top: 7px;
+font-size: 18px;
+border:1px solid #136aaa;
+margin-left: -1px;
+margin-bottom:9px !important; 
+margin-top: -1px;
+}
+#titulo
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	width:755px;
+	font-size:27px;
+	margin-bottom:8px;
+	text-align:center;
+}
+
+  
+ .bt {font-family: Arial, Helvetica, sans-serif;
+color: #133E97;
+width:207px;
+margin-left:-1px;
+font-size: 16px;
+background-color: #f0f0f0;
+border:1px solid #136aaa; 
+padding: 5px;
+margin-bottom: 2px;
+text-align: center;
+cursor:pointer; }
+
+#navegadorPG
+{
+	height:20px;
+	margin-left: 360px;
+	border:1px solid #136aaa;
+}
+.botoesNav
+{
+	border-right: 1px solid #136aaa;
+	height: 19px;
+	margin-top: 1px;
+	padding-top: 1px;
+	padding-left: 2px;
+	margin-left: 2px;
+	width: 21px;
+	float:left;
+	text-align:center;
+}
+.botoesNavNum
+{
+	border-right: 1px solid #136aaa;
+	height: 19px;
+	margin-top: 1px;
+	padding-top: 1px;
+	padding-left: 2px;
+	margin-left: 2px;
+	width: 21px;
+	float:left;
+	text-align:center;
+}

@@ -1,0 +1,187 @@
+body {margin:0;padding:0;font-family:Helvetica,Arial,sans-serif;font-size:12px;color: #2D2E52;}
+ a, a:visited {text-decoration:none; color:#2D2E52;}
+ a:hover {text-decoration:underline; color:#3300FF9;}
+ img {border-style: none;}
+ ul {list-style-type: none;margin:0;padding:0;}
+ #conteudo {margin:0 auto; width:1000px;border: 1px solid #136aaa;margin-bottom: 10px;}
+ .grupo{margin:0 15px 15px 15px;padding:0;width:972px;display:inline-block}
+ .btok {width:29px;height:12px;padding:5px 7px 3px 7px;text-align:center;font-size:10px;font-weight:bold;border:1px solid #136aaa;background-color: #00CCFF;display:inline-block; cursor:context-menu}
+ #conteudo div {display:inline-block}
+ #topo {
+   background-repeat: none;
+   background-image:url(' ../imagens/crefito_topo.png');
+   margin:0;margin-bottom:34px;padding:0;width:100%;height:142px;display:inline-block}
+ #topo_links {width: 100%;text-align: right;padding-top: 7px;}
+ #topo_links img:hover{opacity:0.3;}
+ #topo_links a{font-size:8px;margin-right:8px}
+ #topo_busca {width:225px;vertical-align:middle;margin:10px 0 0 820px;}
+ #topo_busca_1{font-weight:bold;display:inline-block}
+ #topo_busca_2{border: 1px solid black;height:23px;background-position: 144px;background-repeat: no-repeat;background-color: white;background-image: url(' ../imagens/procura.png');cursor:pointer;}
+
+ #topo_busca_2 input{color:black;width:138px;border: none;padding:0;margin:3px;}
+ #navegador{margin:55px 0 0 18px;}
+ #navegador div{display:inline-block;font-weight:bold;font-size:14px;}
+  #navegador div:hover{opacity:0.8}
+ #navegador .nv_sel, .nv_op {width: 118px;height: 16px;padding-top: 3px;padding-left: 0;text-align: center;float:left}
+ #navegador .nv_sel {background-image: url('../imagens/op_selcopy.png')}
+ #navegador .nv_op {background-image: url('../imagens/op_normalcopy.png')}
+ #main {margin:0;padding:0;width:100%;display:inline-block}
+ #grini div{width:477px;height:205px;float:left; }
+ #imgslider {margin: 0 15px 15px 15px;border: 1px solid #136aaa; }
+ #atendimento {border:1px solid #136aaa;padding:10px;padding-top:24px;}
+ #atendimento div{margin:0;padding:0;width:auto;height:auto;font-size:8px}
+ #atendimento input{width:96px;margin-left:5px;}
+ #atendimento select{font-size: 8px;height: 22px;width: 46px;margin-top: 2px;vertical-align: top;}
+ #atendimento .atd1 {width:223px;margin-right:5px; height:205px;}
+ #atendimento .atd2 {width:235px;margin-left:5px}
+ #atendimento .atd_lb{width:212px;padding-top:9px;padding-right:5px;text-align:right;border-right: 1px solid #136aaa; }
+ #atendimento .titulo {font-size:12px;font-weight:bold;display:block;margin-top: 15px;margin-bottom: 8px;}
+ #atendimento .atd_lnk {text-align: right;margin-left: 0px;margin-top: 5px;width:224px;height: 50px; border-right: 1px solid #136aaa; padding-right: 10px; margin-top:0px !important}
+ #atendimento .atd_agendar{border-top: 1px solid #136aaa;margin-top: 10px;}
+ #servicos div{width:234px;height:95px;float:left;margin-right:12px;background-image: url(" ../imagens/servicos_bkg.png");}
+ #servicos .titulo {font-size:12px;font-weight:bold;display:block;margin:16px 0 10px 10px;}
+ #servicos .texto {margin-left:8px; display:block;font-weight:normal;}
+
+ #materias {border: 1px solid #136aaa;padding-bottom: 9px;}
+ #materias img:hover{opacity:0.8}
+ #materias div{width:242px;height:197px;float:left;border-right: 1px solid ;margin-top:10px}
+ #materias .titulo {font-size:12px;font-weight:bold;display:block;margin:8px;}
+ .titulo2 {font-size: 12px; font-weight:bold; display:block; margin:10px; margin-left:20px;}
+ .subMenuStyle{margin:1px; margin-left:4px;}
+/* aplica somente a partir de 320px */
+
+
+ #btPopup1 .submenu {
+position: absolute;
+z-index: 9999;
+margin-left: 0px;
+margin-top: 0px;
+display:none;
+width: 300px;
+height: 220px;
+border : none ;
+background-image: url("../imagens/fundo300x215.png");
+ 
+ }
+ 
+
+#btPopup2 .submenu2 {
+z-index: 9999;
+position: absolute;
+margin-left: 0px;
+margin-top: 0px;
+display: none;
+width: 270px;
+height: 125px;
+background-image: url("../imagens/fundo270x137.png");
+background-size:270px 150px;
+ }
+#btPopup3 .submenu3 {
+z-index: 9999;
+position: absolute;
+margin-left: 0px;
+margin-top: 0px;
+display: none;
+width: 270px;
+height: 140px;
+background-image: url("../imagens/fundo270x137.png");
+background-size:270px 150px; 
+ }
+ 
+ #btPopup3 .submenu3 a, #btPopup2 .submenu2 a,  #btPopup1 .submenu a,  .fale a
+ {
+	 -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: transform;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+ }
+     #btPopup1 .submenu a:hover,  #btPopup3 .submenu3 a:hover, #btPopup2 .submenu2 a:hover, .fale a:hover{
+ -webkit-transform: scale(0.2);
+  -ms-transform: scale(0.2);
+  transform: scale(0.2);
+
+ }
+  #titulobuscar
+ {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	width:1000px;
+	font-size:25px;
+	border-bottom: 1px solid ;
+	padding-bottom: 10px;
+	margin-bottom: 25px;
+	text-align:center; 
+ }
+ #tituloSecBuscar{ 
+font-size: 19px;
+text-align: center;
+font-family: Verdana, Geneva, sans-serif;
+width: 1000px;
+margin-bottom: 25px;
+color: #296661;
+padding-bottom: 3px;
+margin-top:15px;
+
+}
+
+#subTopic
+{
+	width:1000px;
+	font-size: 15px;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+	margin-bottom: 8px;
+	display:none ;
+	
+} 
+#descritivoBuscar
+{
+width: 1000px;
+text-align: center;
+font-size: 17px;
+margin-bottom: 10px;
+}
+ #atendimento .Noticia{ width: 348px; height: 260px; }
+ #atendimento .titulo {width: 339px; height:auto;font-family:Helvetica,Arial,sans-serif;font-weight: bold;font-size:18px;margin: 5px;text-align: center;
+margin-top: 20px; }
+ #atendimento .texto {width: 339px; height:auto;font-family:Helvetica,Arial,sans-serif;font-size:14px;margin: 5px; text-align:center; padding-top:10px;   }
+ #atendimento .separador{ width: 200px;height: 1px;margin-bottom: 10	px;margin-left: 72px; border-bottom: 1px solid ; }
+ #atendimento .destaque{ width: 100%; padding-top: 11px; height: 34px; font-family:Helvetica,Arial,sans-serif;font-size:18px;  text-align:center; font-weight:bold; border-bottom:1px solid ; background-color:#00FFCC; color: #051A86;  }
+ #servicos div{width:234px;height:67px;;float:left;margin-right:12px;background-image: url("../imagens/fundo234x55.png"); }
+ #servicos .bt{width:234px;height:67px;;float:left;margin-right:12px;background-image: url("../imagens/fundo234x55.png"); background-size:234px 67px;}
+
+ #servicos .titulo {font-size:12px;font-weight:bold;display:block;margin:5px 10px 10px 10px;}
+ #servicos .texto {margin-left:8px; display:block;font-weight:normal;}
+ 
+ #materias {border: 1px solid ;padding-bottom: 9px;}
+ #materias div{width:242px;height:197px;float:left;border-right: 1px solid #136aaa;margin-top:10px}
+ #materias .titulo {font-size:12px;font-weight:bold;display:block;margin:8px;}
+ .titulo2 {font-size: 12px; font-weight:bold; display:block; margin:10px; margin-left:20px;}
+ .subMenuStyle{margin:1px; margin-left:4px;}
+
+
+	 {
+	 -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: transform;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+ }
+ .fale a:hover
+ {
+	 -webkit-transform: scale(0.2);
+  -ms-transform: scale(0.2);
+  transform: scale(0.2);
+
+ }
+ 
+ 
