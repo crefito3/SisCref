@@ -1,27 +1,26 @@
-html
-{
+body {
+  background: #0C2939;
+   margin:15% auto;
+}
 
-   
+main {
+  background: blue;
+  margin: 10px 0;
+  padding: 1px;
+}
+
+main div {
+  background: black;
+  color: white;
+  padding: 10px;
+  margin: 5px;
 }
 
 
-body{
-  margin:0;
+
+.flex-centralizado {
+  display: flex;
+  justify-content: center;
+  margin:auto;
+  width:60%;
 }
-
-.container {
-    margin:auto;
-    max-width:400px;
-}
-
-.bloco{
-   float:left;
-   border:1px solid #0094ff;
-
-   width:60%;
-   height:auto;
-   display:grid;
-   grid-row-align:center;
-   
-}
-
